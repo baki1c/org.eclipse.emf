@@ -2164,8 +2164,8 @@ public abstract class EStructuralFeatureImpl extends ETypedElementImpl implement
         };
     }
 
-    protected Object defaultValue;
-    protected Object intrinsicDefaultValue;
+    protected volatile Object defaultValue;
+    protected volatile Object intrinsicDefaultValue;
 
     /**
      * @since 2.9
